@@ -24,7 +24,7 @@ namespace AppPropina
             TxtTotalPropina.Detail = totalneto.ToString("C");
             TxtPropinaPersona.Detail = (totalneto / numPersona).ToString("C");
             TxtTotal.Detail = (total + totalneto).ToString("C");
-            TxtTotalPersona.Detail = (total / numPersona).ToString("C");
+            TxtTotalPersona.Detail = ((total+ totalneto)/ numPersona).ToString("C");
 
 
 
